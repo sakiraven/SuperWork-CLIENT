@@ -1,0 +1,44 @@
+name: super_home_work_2
+description: 超级作业2
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_easyrefresh: ^2.2.1 # 刷新 加载组件
+  #  flutter_skeleton: ^0.1.0+1 # 骨架屏 非空安全 弃用
+  dio: ^4.0.4 #网络请求
+  sqflite: ^2.0.2 # 数据库
+  skeletons: ^0.0.3 # 骨架瓶
+  cached_network_image: ^3.2.0 # 图片缓存框架
+  flutter_chat_bubble: ^2.0.0 # 气泡
+  gzx_dropdown_menu: ^3.1.0 # 筛选菜单
+#  tencent_kit: ^4.0.0 # qq授权登录
+  shared_preferences: ^2.0.15 # storage
+  flutter_spinkit: ^5.1.0 # loading 动画
+  event_bus: ^2.0.0 # 发布订阅
+#  sign_in_with_apple: ^4.1.0 # 苹果登录
+  flutter_launcher_icons: ^0.9.2 # 打包图片
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/image/common/
+    - asset/image/test/
+    - asset/image/logo/
+    - asset/image/tabBar/
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "asset/image/logo/logo.jpg"

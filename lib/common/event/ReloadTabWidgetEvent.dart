@@ -1,0 +1,3 @@
+class ReloadTabWidgetEvent {
+  ReloadTabWidgetEvent();
+}
